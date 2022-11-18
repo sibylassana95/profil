@@ -4,7 +4,7 @@
 }
 
 body {
-    background: rgb(18, 255, 196);
+    background-color: rgba(149, 153, 175, 1);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -50,7 +50,7 @@ img {
     border-radius: 50%;
 }
 
-.names {
+.nom {
     margin-top: 20px;
     color: white;
     display: flex;
@@ -60,11 +60,11 @@ img {
     gap: 5px;
 }
 
-.names h1 {
+.nom h1 {
     font-size: 25px;
 }
 
-.names p {
+.nom p {
     font-size: 18px;
     color: rgb(18, 255, 196);
 }
@@ -97,7 +97,7 @@ img {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.skills {
+.site{
     width: 100%;
     display: flex;
     align-items: center;
@@ -108,29 +108,9 @@ img {
     gap: 15px;
 }
 
-.skills .details {
-    width: 80%;
-}
 
-.skills .text {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.line {
-    width: 0%;
-    height: 20px;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
 
 button{
     padding: 14px 80px;
-}
-
-#js {
-    animation: js 6s 0s forwards 1;
 }
 
